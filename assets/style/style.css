@@ -21,6 +21,17 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+textarea {
+  width: 100%;
+  border: none;
+  height: 64px;
+  resize: none;
+  box-sizing: border-box;
+}
+textarea:focus {
+  background-color: rgb(252, 230, 238);
+}
+
 .description {
   white-space: pre-wrap;
 }
